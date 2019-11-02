@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Xi Portfolio</title>
+    <!-- Bootstrap Core CSS JS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:100,200' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:200,300,400,500,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/animate.css/3.1.0/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet">
+    <!-- protfolio page Javascript and CSS -->
+    <link rel="stylesheet" href="css/portfolio-page.css">
+    <link rel="apple-touch-icon" href="images/xi-logo.png">
+    <link rel="icon" href="images/xi-logo.png">
+</head>
+
+<body>
+    <section class="portfolio-header animated fadeInUp">
+
+      <nav id="mainNav" class="navbar-fixed-top navbar navbar-default">
+          <div class="container-fluid">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+              </div>
+
+              <a href="index.html" onClick="delayURL('index.html',500); return false;">
+                <div class="logo">
+                  <img src="images/xi-logo.svg" alt="site-logo">
+                </div>
+              </a>
+
+              <nav class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                      <li class="current page-scroll"></li>
+                      <li><a class="page-scroll" href="#design">Design Works</a></li>
+                      <li style="margin-left: 25px"><a href="aboutme.html">About</a></li>
+                  </ul>
+              </nav>
+           </div>
+        </nav>
+
+
+      <div class="intro-header">
+        <div class="container">
+          <div class="row">
+            <div class="hero-text">
+              <h2 style="font-size: 32px; font-weight: 600;">Hello, I'm Xi.</h1>
+              <h2 style="color: #a8a8a8; margin-top: 0px" >UX designer @ GroupM in NYC</h2>
+              <h1 style="font-size: 86px; font-weight: 500; margin-top: 20px; margin-right: 20px">I bridge user & technology by envisioning how it
+                <span class="hero-text-hover" id="hover1" onmouseover="appear(this)" onmouseout="disappear(this)">looks</span>,
+                <span class="hero-text-hover" id="hover2" onmouseover="appear(this)" onmouseout="disappear(this)">works</span>, and
+                <span class="hero-text-hover" id="hover3" onmouseover="appear(this)" onmouseout="disappear(this)">feels</span>.
+                <div class="homehover" id="homehover1">
+                  <img src="images/homehover1.png">
+                </div>
+                <div class="homehover" id="homehover2">
+                  <img src="images/homehover2.png">
+                </div>
+                <div class="homehover" id="homehover3">
+                  <img src="images/homehover3.png">
+                </div></h2>
+            </div>
+          </div>
+        </div>
+        <div class="down-arrow page-scroll" href="#design">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"><path fill="currentColor" d="M14.496 5.975l-.001 14.287-6.366-6.367L6 16.021l10.003 10.004L26 16.029 23.871 13.9l-6.366 6.368V5.977z"></path></svg> 
+        </div>
+      </div>
+    </section>
+
+    <div class="container" id="design">
+    </div>
+
+    <div class="grey-bg company-section">
+      <div class="container">
+        <div class="row company-logo">
+          <img src="images/groupm-logo.png">
+          <h4>Aug 2018 - Present<br>New York, NY</h4>
+        </div>
+        <div class="row">
+          <div class="project-work" id="data-onboarding">
+            <div class="col-lg-6 col-md-6" style="padding-left: 0px"><a href="Data Onboarding.html"><img src="images/data-onboarding.png"></a></div>
+            <div class="col-lg-6 col-md-6 project-text">
+              <h2><a href="Data Onboarding.html">Data Onboarding<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"><path fill="currentColor" d="M5.975 17.504l14.287.001-6.367 6.366L16.021 26l10.004-10.003L16.029 6l-2.128 2.129 6.367 6.366H5.977z"></path></svg></a></h2>
+              <h5><span class="tags">New Product Design</span><span class="tags">SaaS</span></h5>
+              <p>This is a data ingestion tool that enables non-technical user to easily extract data from external system with some desired transformation and load into [m]Platform database.</p>
+            </div>
+          </div>
+        </div>
+<!--         <div class="row">
+          <div class="project-work" id="data-onboarding">
+            <div class="col-lg-6 col-md-6" style="padding-left: 0px"><a href="consumer-segmentation.html"><img src="images/segmentation.jpeg"></a></div>
+            <div class="col-lg-6 col-md-6 project-text">
+              <h2><a href="consumer-segmentation.html">Consumer Segmentation<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"><path fill="currentColor" d="M5.975 17.504l14.287.001-6.367 6.366L16.021 26l10.004-10.003L16.029 6l-2.128 2.129 6.367 6.366H5.977z"></path></svg></a></h2>
+              <h5><span class="tags">Interaction Design</span><span class="tags">Data Viz</span><span class="tags">SaaS</span></h5>
+              <p>This data bundle will generate multiple separate data streams. Engagement data will be avialable once you deploy, while you need map profile data to Customer 360 data model.</p>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+
+    <div class="company-section">
+      <div class="container">
+        <div class="row company-logo">
+          <img src="images/jop-logo.png">
+          <h4>Dec 2017 - Oct 2018<br>Brooklyn, NY</h4>
+        </div>
+        <div class="row">
+          <div class="project-work" id="data-onboarding">
+            <div class="col-lg-6 col-md-6" style="padding-left: 0px"><a href="jop.html"><img src="images/jop.jpg"></a></div>
+            <div class="col-lg-6 col-md-6 project-text">
+              <h2><a href="jop.html">Jop On-demand Services<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"><path fill="currentColor" d="M5.975 17.504l14.287.001-6.367 6.366L16.021 26l10.004-10.003L16.029 6l-2.128 2.129 6.367 6.366H5.977z"></path></svg></a></h2>
+              <h5><span class="tags">Mobile Product Design</span><span class="tags">Consumer O2O</span></h5>
+              <p>Jop is a Brooklyn based startup running an on-demand service platform that connects customers to professionals with specific skills.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="grey-bg company-section">
+      <div class="container">
+        <div class="row company-logo">
+          <img src="images/concur-logo.png">
+          <h4>May 2017 - Jul 2017<br>San Francisco, CA</h4>
+        </div>
+        <div class="row">
+          <div class="project-work" id="data-onboarding">
+            <div class="col-lg-6 col-md-6" style="padding-left: 0px"><a href="tripit.html"><img src="images/Tripit.png"></a></div>
+            <div class="col-lg-6 col-md-6 project-text">
+              <h2><a href="tripit.html">TripIt App UX Improvements<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"><path fill="currentColor" d="M5.975 17.504l14.287.001-6.367 6.366L16.021 26l10.004-10.003L16.029 6l-2.128 2.129 6.367 6.366H5.977z"></path></svg></a></h2>
+              <h5><span class="tags">Micro Interaction</span><span class="tags">Motion Design</span></h5>
+              <p>TripIt is a mobile travel planner that organizes travel plans in one places. Simply forward all your hotel, flight and restaurant confirmation emails from business or personal email to TripIt.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container other-works" style="margin-top: 80px">
+      <div class="row">
+        <h2>Student Project<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"><path fill="currentColor" d="M5.975 17.504l14.287.001-6.367 6.366L16.021 26l10.004-10.003L16.029 6l-2.128 2.129 6.367 6.366H5.977z"></path></svg></h2>
+        
+      </div>
+    </div>
+      
+    <div class="cards">
+      <a href="cts.html"><img class="card-item" src="images/cts.png"></a>
+      <a href="xiguo.html"><img class="card-item" src="images/xiguo.png"></a>
+      <a href="idm.html"><img class="card-item" src="images/medi.png"></a>
+      <a href="vpl.html"><img class="card-item" src="images/vpl.png"></a>
+    </div>
+
+
+    <div class="container footer" style="width: 100vw">
+      <div class="row text-center" style="margin: 80px">
+        <p>© 2019 Designed and built with <i class="fa fa-heart" style="color: #F4DAC9"></i> by Xi Zhang in NYC. All right reserved.</h2>
+        <div class="bottom-icons">
+          <a href="https://dribbble.com/Xi_0303"><i class="fa fa-dribbble"></i></a>
+          <a href="https://www.linkedin.com/in/zhang-xi/"><i class="fa fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-1.11.0.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <!-- scroll fade in -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.4/waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="js/owl.carousel.js"></script>
+
+
+    <script src="js/portfolio-page.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+  </body>
+</html>
